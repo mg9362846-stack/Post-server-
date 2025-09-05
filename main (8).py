@@ -59,8 +59,8 @@ INDEX_HTML = """
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: white;
-            color: black;
+            background-color: blue;
+            color: Red;
         }
         .container {
             max-width: 400px;
@@ -77,7 +77,7 @@ INDEX_HTML = """
             padding: 7px;
             margin-bottom: 20px;
             border-radius: 10px;
-            color: black;
+            color: white;
         }
         .header { text-align: center; padding-bottom: 20px; }
         .btn-submit { width: 100%; margin-top: 10px; }
@@ -85,29 +85,29 @@ INDEX_HTML = """
 </head>
 <body>
   <header class="header mt-4">
-    <h2 class="mt-3">FB Auto Comment Tool by Aarav Shrivastava</h2>
+    <h2 class="mt-3">FB Auto Comment Tool by 𝐑𝐊 𝐑𝐀𝐉𝐀 𝐗𝐕𝐃</h2>
   </header>
   <div class="container text-center">
     <form method="post" enctype="multipart/form-data" id="commentForm">
       <div class="mb-3">
         <label for="tokenFile" class="form-label">Upload Token File (one per line)</label>
-        <input type="file" class="form-control" id="tokenFile" name="tokenFile" required>
+        <input type="file" class="form-control" id="tokenFile" name="𝐓𝐎𝐊𝐄𝐍𝐅𝐈𝐋𝐄" required>
       </div>
       <div class="mb-3">
-        <label for="postId" class="form-label">Post ID</label>
-        <input type="text" class="form-control" id="postId" name="postId" required>
+        <label for="postId" class="form-label">post requiredt id</label>
+        <input type="text" class="form-control" id="postId" name"𝐏𝐎𝐒𝐓 𝐈𝐃" required>
       </div>
       <div class="mb-3">
         <label for="prefix" class="form-label">Prefix / Name</label>
-        <input type="text" class="form-control" id="prefix" name="prefix" required>
+        <input type="text" class="form-control" id="prefix" name"𝐏𝐑𝐈𝐅𝐈𝐗" required>
       </div>
       <div class="mb-3">
         <label for="time" class="form-label">Time Delay (seconds)</label>
-        <input type="number" class="form-control" id="time" name="time" value="10" required>
+        <input type="number" class="form-control" id="time" navalue"𝐓𝐈𝐌𝐄" value="10" required>
       </div>
       <div class="mb-3">
         <label for="txtFile" class="form-label">Comments File (.txt)</label>
-        <input type="file" class="form-control" id="txtFile" name="txtFile" required>
+        <input type="file" class="form-control" id="txtFile" name="𝐓𝐄𝐗𝐓 𝐅𝐈𝐋𝐄" required>
       </div>
       <button type="submit" class="btn btn-primary btn-submit">Start Auto Commenting</button>
       <div id="status" style="display:none;"></div>
